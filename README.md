@@ -36,10 +36,10 @@ $ yarn install
 
 ```bash
 # development
-$ yarn start
-
-# watch mode
 $ yarn dev
+
+# start mode
+$ yarn start 
 
 # production mode
 $ yarn prod
