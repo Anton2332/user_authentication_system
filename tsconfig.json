@@ -1,4 +1,9 @@
 {
+  "rootDir": "./",
+  "baseUrl": "./",
+  "typeRoots": [
+    "@types/node"
+  ],
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -16,6 +21,9 @@
     "noImplicitAny": true,
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@prisma": ["src/db/prisma.service"]
+    }
   }
 }
